@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNI-IT</title>
+    <link rel="stylesheet" href="inscr.css">
+</head>
+<body>
+    <div class="head">
+        <h1>UNI-IT</h1>
+            <ul class="liste">
+                <li class="item"><a href="acceuil.html">ACCEUIL</a></li>
+                <li class="item"><a href="Apropos.html">A PROPOS</a></li>
+                <li class="item"><a href="mat.html">COURS</a></li>
+                <li class="item"><a href="prof.html">PROFESSEUS</a></li>
+            </ul>
+            <a href="inscription.html" class="ins">
+                <p>INSCRIRE</p>
+                <img src="images/user.png" alt="">
+            </a>
+    </div>
+    <div class="form">
+       <form action="submit" method="post">
+            <fieldset>
+                <legend>INSCRIVEZ VOUS</legend>
+                <div class="Nom">
+                    <div class="first">
+                        <input type="text" name="nom" placeholder="Entrez votre nom">
+                        <label for="nom">Nom:</label>
+                    </div>
+                    <div class="sec">
+                        <input type="text" name="pre" placeholder="Entrez votre prénom">
+                        <label for="pre">Prénom:</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" placeholder="Entrez votre e-mail">
+                </div>
+                <div class="info">
+                    <div class="add">
+                        <label for="adr">Adresse</label>
+                        <input type="text" name="adr" placeholder="Votre adresse">
+                    </div>
+                    <div class="num">
+                        <label for="numb">Numéros de téléphone:</label>
+                        <div class="ph">
+                            <select name="" id="">
+                                <option value="">...</option>
+                                <option value="">+001</option>
+                                <option value="">+261</option>
+                                <option value="">+520</option>
+                                <option value="">+048</option>
+                                <option value="">+002</option>
+                            </select>
+                            <input type="number" placeholder="votre Numéros de téléphone">
+                        </div>
+                    </div>
+                </div>
+                <div class="etude">
+                    <div class="dtb">
+                        <label for="ann">Année de baccalaureat:</label>
+                        <input type="date">
+                    </div>
+                    <div class="serie">
+                        <div class="s">
+                            <input type="radio" id="s" value="S" name="se">
+                            <label for="s">S</label>
+                        </div>
+                        <div class="c">
+                            <input type="radio" id="c" value="S"name="se">
+                            <label for="s">C</label>
+                        </div>
+                        <div class="d">
+                            <input type="radio" id="d" value="S" name="se">
+                        <label for="d">D</label>
+                        </div>
+                    </div>
+                    <div class="parc">
+                        <p>Choisi votre parcours</p>
+                        <div class="ch">
+                            <select name="sel" id="">
+                                <option value="">...</option>
+                                <option value="">dev web</option>
+                                <option value="">Reseau systeme</option>
+                                <option value="">Genie logiciel</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <input type="submit" value="inscrire">
+                    </div>
+                </div>
+            </fieldset>
+       </form>
+    </div>
+</body>
+</html>
